@@ -26,6 +26,10 @@ body{
 /* headings_end */
 
 /* 1st sections start */
+.heading{
+    display: flex;
+}
+
 .heading_header{
     color:#3A3A3A;
     font-size: 52px;
@@ -44,4 +48,9 @@ body{
     font-weight: 700;
     border-radius: 41px;
 }
-
+/* headers text end */
+/* headers images start */
+.heading_image{
+    background-image:url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
