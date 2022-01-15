@@ -3,6 +3,7 @@
 /* full bodis */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 main {
     display: flex;
@@ -77,6 +78,7 @@ main {
     position: relative;
     text-align: center;
     margin-bottom: 5%;
+    font-size: 30px;
 
 }
 .product_box{
@@ -127,4 +129,45 @@ main {
     align-items: center;
     margin-left: 950px;
     color:#E02C6D;
+}
+/* bonas part  */
+.youtube_video{
+    border: 2px solid #E02C6D;
+    border-radius: 10px;
+}
+/* bunas part done  */
+footer {
+    background-color: #0A0826;
+    width: 100%;
+    height: 239px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    line-height: 20px;
+}
+
+.footer_heading{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top:20px;
+}
+.footer_text{
+    text-align: center;
+    color: white;
+}
+.footer_rights{
+    text-align: center;
+    color: white;
+}
+.footer_icon {
+    display: flex;
+    justify-content:space-evenly;
+    width: 150px;
+    margin: 25px;
+}
+.footer_icon a{
+    text-decoration: none;
+    color: white;
 }
