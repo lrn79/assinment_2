@@ -4,6 +4,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -23,12 +29,16 @@ body{
     width: 36px;
     height: 36px;
 }
+.fas {
+    font-size: 15px;
+}
 /* headings_end */
 
 /* 1st sections start */
 .heading{
     display: flex;
 }
+
 
 .heading_header{
     color:#3A3A3A;
@@ -42,15 +52,79 @@ body{
 }
 .header_button{
     text-decoration: none;
-    background-color:#E02C6D;;
+    background-color:#E02C6D;
     padding: 10px 24px;
     color: white;
     font-weight: 700;
     border-radius: 41px;
+  
 }
 /* headers text end */
 /* headers images start */
 .heading_image{
     background-image:url(images/Circle\ design.svg);
     background-repeat: no-repeat;
+}
+
+
+.heading_image:hover img{
+    transform: rotate(360deg);
+    transition: 1s ease-in;
+}
+
+/* 2nd sections start */
+.section_heading{
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.product_box{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+    padding: 0px 20px;
+}
+.box_part{
+    width: 310px;
+    height: 500px;
+    padding: 15px 15px 33px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.19);
+}
+.box_part img {
+    width: 100%;
+    border-radius: 10px;
+}
+.box_part h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0 10px 0;
+}
+.box_part p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    text-align: justify;
+    line-height: 130%;
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+.font_size{
+    font-size: small;
+}
+.starts{
+    color: gold;
+}
+/* see more buttons */
+.see_more{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 950px;
+    color:#E02C6D;
 }
